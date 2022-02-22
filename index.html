@@ -4,9 +4,55 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#157575">
+    <link rel="icon" href="./assets/images/favicon.png">
+    <link rel="stylesheet" href="./assets/styles/styles.css">
     <title>Calculator</title>
 </head>
 <body>
-    
+    <header>
+        <h1>Simple Calculator</h1>
+    </header>
+    <section>
+        <div class="container">
+            <div id="screen" class="screen--return">
+                <div id="screen-recorded" contenteditable="true"></div>
+                <div id="screen-result">0</div>
+            </div>
+            <div>
+                <button id="clear" class="btn-secondary">C</button>
+                <button id="delete" class="btn-secondary">Delete</button>
+                <button id="divided" class="operation-btn">/</button>
+            </div>
+            <div>
+                <button id="seven" class="btn">7</button>
+                <button id="eight" class="btn">8</button>
+                <button id="nine" class="btn">9</button>
+                <button id="multiplied" class="operation-btn">*</button>
+            </div>
+            <div>
+                <button id="four" class="btn">4</button>
+                <button id="five" class="btn">5</button>
+                <button id="six" class="btn">6</button>
+                <button id="minus" class="operation-btn">-</button>
+            </div>
+            <div>
+                <button id="one" class="btn">1</button>
+                <button id="two" class="btn">2</button>
+                <button id="three" class="btn">3</button>
+                <button id="plus" class="operation-btn">+</button>
+            </div>
+            <div>
+                <button id="zero" class="btn">0</button>
+                <button id="point" class="btn">.</button>
+                <button id="equals" class="btn-secondary">=</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- SCRIPTS -->
+
+    <script src="./script.js"></script>
+
 </body>
 </html>
