@@ -25,7 +25,6 @@ a{
 header{
     height: 10rem;
     width: 100%;
-    // background-color: #157575;
     background: linear-gradient(to bottom,#157575 40%,#ead7c7 );
     position: absolute;
     h1{
@@ -83,16 +82,20 @@ section{
         display: flex;
         flex-direction: column;
         > div{
-            font-size: 3rem;
             width: 100%;
-            height: 50%;
             text-align: end;
         }
         > div:nth-child(1){
             overflow: hidden;
+            font-size: 2.5rem;
+            height: 40%;
             &:focus{
                 outline: none;
             }
+        }
+        > div:nth-child(2) {
+            font-size: 4rem;
+            height: 60%;
         }
     }
 
